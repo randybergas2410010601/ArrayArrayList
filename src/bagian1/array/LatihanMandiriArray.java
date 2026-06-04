@@ -3,9 +3,9 @@ package bagian1.array;
 public class LatihanMandiriArray {
     public static void main(String[] args) {
 
-        // =========================
+        
         // 1. Array suhu (double)
-        // =========================
+        
         double[] suhu = {30.5, 32.0, 29.8, 31.2, 33.5, 28.9};
 
         double max = suhu[0];
@@ -25,9 +25,9 @@ public class LatihanMandiriArray {
         System.out.println("Suhu terendah : " + min);
 
 
-        // =========================
+       
         // 2. Array nama hari
-        // =========================
+       
         String[] hari = {"Senin", "Selasa", "Rabu", "Kamis", "Jumat"};
 
         System.out.println("\n=== Nama Hari > 5 Huruf ===");
@@ -36,9 +36,9 @@ public class LatihanMandiriArray {
                 System.out.println(h);
             }
         }
-        // =========================
+        
         // 3. Hitung angka genap
-        // =========================
+        
         int[] angka = {4, 8, 15, 16, 23, 42};
 
         int jumlahGenap = 0;

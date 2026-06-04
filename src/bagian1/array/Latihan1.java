@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package bagian1.array;
 
-/**
- *
- * @author ACER
- */
 public class Latihan1 {
     public static void main(String[] args) {
 // Cara 1: deklarasi lalu isi per indeks
@@ -24,4 +17,5 @@ System.out.println("Nilai ketiga : " + nilai[2]);
 System.out.println("Mahasiswa ke-2: " + nama[1]);
 System.out.println("Jumlah nilai : " + nilai.length);
 }
+    
 }

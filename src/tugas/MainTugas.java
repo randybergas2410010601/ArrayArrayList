@@ -1,5 +1,9 @@
 package tugas;
 
+
+// Nama : Randy Bergas Alaxsa Malanggy
+// NPM  : 2410010601
+
 public class MainTugas {
     public static void main(String[] args) {
         
@@ -21,11 +25,11 @@ public class MainTugas {
         KelasKuliah kelas = new KelasKuliah();
 
         // Menambahkan minimal 5 objek Mahasiswa awal (Soal No. 3)
-        kelas.tambahMahasiswa(new Mahasiswa("Randy Bergas ", "2410010601", 92.5));
-        kelas.tambahMahasiswa(new Mahasiswa("Alaxsa Malanggy", "2410010543", 68.0));
-        kelas.tambahMahasiswa(new Mahasiswa("Enru Rizky", "2410010233", 90.0));
-        kelas.tambahMahasiswa(new Mahasiswa("Ahmad Fitri", "2410010542", 66.5));
-        kelas.tambahMahasiswa(new Mahasiswa("Eka Fitri", "2410010116", 75.0));
+        kelas.tambahMahasiswa(new Mahasiswa("Randy Bergas", "2410010601", 85.5));
+        kelas.tambahMahasiswa(new Mahasiswa("Alaxsa Malanggy", "2410010433", 68.0));
+        kelas.tambahMahasiswa(new Mahasiswa("Enru Rizky", "2410010342", 90.0));
+        kelas.tambahMahasiswa(new Mahasiswa("Salsa Budigawis", "2410010233", 75.5));
+        kelas.tambahMahasiswa(new Mahasiswa("Andi Ahmad", "2410010211", 65.0));
 
         // Menampilkan seluruh data mahasiswa awal
         System.out.println("=== DATA MAHASISWA AWAL ===");
@@ -39,7 +43,7 @@ public class MainTugas {
 
         // 6. Menambahkan satu objek Mahasiswa baru ke dalam koleksi (Soal No. 6)
         System.out.println("... Menambahkan 1 Mahasiswa Baru ...");
-        kelas.tambahMahasiswa(new Mahasiswa("Reza Selmana", "2410010101", 65.0));
+        kelas.tambahMahasiswa(new Mahasiswa("Fajar Dibala", "2410010101", 66.0));
         System.out.println();
 
         // Menampilkan kembali data terbaru dan jumlah data setelah diperbarui (Soal No. 6)
